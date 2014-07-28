@@ -4,8 +4,24 @@ body {
 	padding-top: 65px;
 
 }
+
+.comunidad {
+	background-image: url('http://dgnest-frontend.github.io/images/tony-stark.jpg'); ;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 10em 0 10em 0;
+
+}
+
+.footer {
+	background-color: #008BFF;
+	padding: 2em 0 2em 0;
+	text-align: center;
+	color: white;
+
+}
 .jumbotron {
-	background-image: url('http://dgnest-frontend.github.io/images/mano-proyecto.jpg');
+	background-image: url('http://dgnest-frontend.github.io/images/iron-man.jpg');
 	padding: 10em 0 10em 0;
 	background-attachment: fixed;
 }
@@ -32,6 +48,7 @@ body {
 #header {
 	color: white;
 	font-size: 1.5em;
+	padding: 0 0 30em 0;
 }
 
 #twitter {
