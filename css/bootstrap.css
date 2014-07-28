@@ -1079,6 +1079,7 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
+  color: white;
 }
 h2,
 .h2 {
@@ -1102,6 +1103,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  
 }
 .lead {
   margin-bottom: 20px;
@@ -3589,6 +3591,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  margin: 1em 0 0 0;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3770,7 +3773,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 70px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4554,7 +4557,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  /*color: inherit;*/
 }
 .jumbotron p {
   margin-bottom: 15px;
