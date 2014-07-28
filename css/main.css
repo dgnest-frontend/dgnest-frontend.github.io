@@ -5,7 +5,7 @@ body {
 
 }
 .jumbotron {
-	background-image: url('images/tony-stark.jpg');
+	background-image: url('');
 }
 
 #logo {
@@ -22,4 +22,11 @@ body {
 #twitter {
 	float: left;
 	padding: 0 3em 0 3em;
+}
+
+.secciones .container .row .col-md-3  h3 {
+	text-align: center;
+}
+.secciones .container .row .col-md-3  p {
+	text-align: justify;
 }
