@@ -21,10 +21,10 @@ body {
 
 }
 .jumbotron {
-	
-	background-image: url('http://dgnest-frontend.github.io/images/mano-proyecto.jpg');
-	padding: 10em 0 10em 0;
 	background-attachment: fixed;
+	background-image: url('http://dgnest-frontend.github.io/images/tony-stark.jpg');
+	padding: 20em 0 20em 0;
+	
 }
 
 .i-love {
@@ -61,14 +61,20 @@ body {
 	float: left;
 	padding: 1em 1em 0 1em;
 }
-
-.secciones .container .row .col-md-3  h3 {
+.secciones {
+	padding: 5em 0 2em 0;
+}
+.secciones .container h2 {
+	text-align: center;
+	padding: 0 0 2em 0;
+}
+.secciones .container .row .col-md-3 h3 {
 	text-align: center;
 }
-.secciones .container .row .col-md-3  p {
+.secciones .container .row .col-md-3 p {
 	text-align: justify;
 }
 
-.secciones {
-	padding: 5em 0 2em 0;
+.secciones .container .row .col-md-12 {
+	text-align: center;
 }
