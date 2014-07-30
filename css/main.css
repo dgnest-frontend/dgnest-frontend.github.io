@@ -1,7 +1,6 @@
 
 body {
-	font-size: 16px;
-	padding-top: 65px;
+	/*padding-top: 65px;*/
 
 }
 
@@ -27,7 +26,7 @@ body {
 	background-image: url('http://dgnest-frontend.github.io/images/guy-ironman-reactor-2.jpg');
 	background-position: center center;
 	background-size: cover;
-	padding: 20em 0 20em 0;
+	padding: 5em 0 10em 0;
 	
 }
 
@@ -56,6 +55,19 @@ body {
 	padding: 0 0 30em 0;
 }
 
+.header-profile {
+	background-color: black;
+	background-attachment: fixed;
+	background-image: url('http://dgnest-frontend.github.io/images/portada.jpg');
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5em 0 10em 0;
+}
+
 #twitter {
 	float: left;
 	padding: 1em 1em 0 1em;
@@ -67,15 +79,23 @@ body {
 }
 .secciones {
 	padding: 5em 0 2em 0;
+	background-color: #005ba6;
 }
 .secciones .container h2 {
 	text-align: center;
 	padding: 0 0 2em 0;
+	position: relative;
 }
-.secciones .container .row .col-md-3 h3 {
+.secciones .container .row .col-md-4 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.secciones .container .row .col-md-4 h3 {
 	text-align: center;
 }
-.secciones .container .row .col-md-3 p {
+.secciones .container .row .col-md-4 p {
 	text-align: justify;
 }
 

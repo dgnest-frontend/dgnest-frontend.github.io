@@ -899,7 +899,7 @@ body {
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-size: 18px;
   line-height: 1.42857143;
-  color: #333;
+  color: white;
   background-color: #fff;
 }
 input,
@@ -3774,7 +3774,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 70px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4576,8 +4576,8 @@ a.list-group-item.active > .badge,
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 5em;
+    padding-bottom: 10em;
   }
   .container .jumbotron {
     padding-right: 60px;
