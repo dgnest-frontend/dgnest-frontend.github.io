@@ -33,7 +33,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 
 <nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -44,52 +44,22 @@
       </button>
       <a class="navbar-brand" href="#">
         <figure id="logo">
-            <img src="images/dgnest-logo.png" width="100" height="50">
+            <img src="images/dgnest-logo.png" width="120" height="60">
           </figure></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li>
-          <figure id="facebook">
-            <a href="#" target="blank">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>   
-              </span>
-            </a>
-          </figure>
-        </li>
-
-        <li>
-         <figure id="twitter">
-            <a href="#" target="blank">
-              <span class="fa-stack fa-lg">
-                 <i class="fa fa-circle fa-stack-2x"></i>
-                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </figure>
-        </li>
-
-        <li>
-         <figure id="google-plus">
-            <a href="#" target="blank">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-            </a>
-          </figure>
-        </li>  
+        
 
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Explora</a></li>   
         <li><a href="#">Crea un Proyecto</a>
-        <li class="active"><a href="#">Regístrate</a> </li>
-        <li><a href="#">Ingresa</a></li>
+        
+        <li class="active"><a href="#">Ingresa</a></li>
         
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -98,18 +68,41 @@
 
 	<div class="jumbotron">
 		<div class="container">
-			<h1>
-			Muy Pronto un nido digital de ideas por descubrir.
-			</h1>
+			<div class="row">
+				<div class="col-md-8">
+					<h1>
+					Muy Pronto un nido digital de ideas por descubrir.
+					</h1>
 
-			<span id="header">Comunidad de open source hardware con la cual podrás encontrar, desarrollar , innovar, y comprar todo lo necesario para realizar los proyectos que jamas imaginaste.</span>	
-			<p>
-				<a class="btn btn-primary btn-lg" role="button">Regístrate ahora</a>
-			</p>
+					<span id="header">Comunidad de open source hardware con la cual podrás encontrar, desarrollar , innovar, y comprar todo lo necesario para realizar los proyectos que jamas imaginaste.</span>	
+					
+				</div>
+
+				<div class="col-md-4">
+					<form role="form">
+					  <div class="form-group">
+					  	
+					  	<input type="name" class="form-control" id="exampleInputName1" placeholder="Elige un usuario">
+					  </div>
+
+					  <div class="form-group">
+					    
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tu e-mail va aquí">
+					  </div>
+
+					  <div class="form-group">
+					   
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Crea un password">
+					  </div>
+					  
+					  <button type="submit" class="btn btn-primary btn-lg" role="button">Regístrate ahora</button>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="i-love">
+	<!--<div class="i-love">
 		<div class="container">
 			<h1>I 
 				<span class="fa-stack fa-lg">
@@ -118,7 +111,7 @@
 				dgNest
 			</h1>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="usuarios">
 		<div class="container-fluid">
@@ -166,7 +159,7 @@
 		</div>
 	</div>
 
-	<div class="i-love">
+	<!--<div class="i-love">
 		<div class="container">
 			<h1>I 
 				<span class="fa-stack fa-lg">
@@ -175,7 +168,7 @@
 				electrónica
 			</h1>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="comunidad">
 		<div class="container">
@@ -187,7 +180,7 @@
 		</div>
 	</div>
 
-	<div class="i-love">
+	<!-- <div class="i-love">
 		<div class="container">
 			<h1>I 
 				<span class="fa-stack fa-lg">
@@ -196,7 +189,7 @@
 				mecatrónica
 			</h1>
 		</div>
-	</div>
+	</div> -->
 
 
 	<div class="secciones">
@@ -259,7 +252,41 @@
 	</div>
 </div>
 </div>
-	<div class="footer">
+	<div class="footer">	
+		<div class="social">
+          <li>
+          <figure id="facebook">
+            <a href="#" target="blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>   
+              </span>
+            </a>
+          </figure>
+         	</li>
+         	<li>
+		<figure id="twitter">
+            <a href="#" target="blank">
+              <span class="fa-stack fa-lg">
+                 <i class="fa fa-circle fa-stack-2x"></i>
+                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </figure>
+          </li>
+       <li>         
+         <figure id="google-plus">
+            <a href="#" target="blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+          </figure> 
+         </li>
+         </div>  
+
+    <div class="text">
 		© 2014 dgNest, Inc. All rights reserved.
 	</div>
 

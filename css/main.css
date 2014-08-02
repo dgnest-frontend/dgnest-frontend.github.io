@@ -10,7 +10,7 @@ body {
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
-	padding: 5em 0 5em 0;
+	
 
 }
 
@@ -19,13 +19,23 @@ body {
 	padding: 2em 0 2em 0;
 	text-align: center;
 	color: white;
-
+	display: block;
+	float: inherit;
 }
+
+.footer .social li {
+	display: inline-block;
+}
+
+.footer .text {
+	padding: 1em 0 0 0;
+}
+
 .jumbotron {
 <<<<<<< HEAD
 	
 	background-image: url('http://dgnest-frontend.github.io/images/mano-proyecto.JPG');
-	padding: 10em 0 10em 0;
+	padding: 0em 0 10em 0;
 =======
 >>>>>>> origin/master
 	background-attachment: fixed;
@@ -36,8 +46,15 @@ body {
 	
 }
 
+.jumbotron .container .row .col-md-4 {
+	background-color: rgba(7,26,113,0.8);
+	padding: 3em 2em 3em 2em;
+	border-radius: 2em;
+
+}
+
 .i-love {
-	background-color: #008BFF;
+	background-color: #1531AE;
 	color: white;
 }
 
@@ -48,11 +65,6 @@ body {
 #logo {
 	float: left;
 	padding: 0 0 0 0;
-}
-
-#facebook {
-	float: left;
-	padding: 1em 1em 0 3em;
 }
 
 #header {
@@ -89,16 +101,6 @@ body {
 
 .header-profile .container h2 {
 	text-align: center;
-}
-
-#twitter {
-	float: left;
-	padding: 1em 1em 0 1em;
-}
-
-#google-plus {
-	float: left;
-	padding: 1em 1em 0 1em;
 }
 
 .perfil-area{
