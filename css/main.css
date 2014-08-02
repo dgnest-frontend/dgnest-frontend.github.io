@@ -64,19 +64,25 @@ body {
 	padding: 5em 0 5em 0;
 }
 
-.header-profile .container-fluid h2 {
+.header-profile .container h2 {
 	text-align: center;
 
 }
+.header-profile {
+	margin: 0 10em 0 10em;
 
-.header-profile .container-fluid #foto-perfil img{
-	border-radius: 50px;
+}
+
+.header-profile .container #foto-perfil img {
+	border-radius: 50%;
 	display: block;
 	height: 100px;
-	margin-left: auto;
 	margin-right: auto;
-	width: 100px;
+	margin-left: auto;
+}
 
+.header-profile .container h2 {
+	text-align: center;
 }
 
 #twitter {
@@ -149,3 +155,4 @@ body {
 	width: 100%;
 	height: 100%
 }
+
