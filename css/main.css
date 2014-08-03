@@ -10,21 +10,25 @@ body {
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
-	
 
 }
 
+.comunidad .container {
+	padding: 3em 0 3em 0;
+}
+
 .footer {
-	background-color: #008BFF;
+	background-color: white;
 	padding: 2em 0 2em 0;
 	text-align: center;
-	color: white;
+	color: black;
 	display: block;
 	float: inherit;
 }
 
 .footer .social li {
 	display: inline-block;
+
 }
 
 .footer .text {
@@ -32,22 +36,15 @@ body {
 }
 
 .jumbotron {
-<<<<<<< HEAD
-	
-	background-image: url('http://dgnest-frontend.github.io/images/mano-proyecto.JPG');
-	padding: 0em 0 10em 0;
-=======
->>>>>>> origin/master
 	background-attachment: fixed;
 	background-image: url('http://dgnest-frontend.github.io/images/guy-ironman-reactor-2.jpg');
-	background-position: center center;
+	background-position: center;
 	background-size: cover;
-	padding: 5em 0 10em 0;
-	
+	padding: 5em 0 10em 0;	
 }
 
 .jumbotron .container .row .col-md-4 {
-	background-color: rgba(7,26,113,0.8);
+	background-color: rgba(100,100,100,0.5);
 	padding: 3em 2em 3em 2em;
 	border-radius: 2em;
 
@@ -70,7 +67,7 @@ body {
 #header {
 	color: white;
 	font-size: 1.5em;
-	padding: 0 0 30em 0;
+	padding: 5em 0 30em 0;
 }
 
 .header-profile {
@@ -88,7 +85,6 @@ body {
 }
 .header-profile {
 	margin: 0 10em 0 10em;
-
 }
 
 .header-profile .container #foto-perfil img {
@@ -121,8 +117,11 @@ body {
 }
 
 .secciones {
+	background: -webkit-linear-gradient(#989898, #909090); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#989898, #909090); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#989898, #909090); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#989898, #909090); /* Standard syntax */
 	padding: 5em 0 2em 0;
-	background-color: #005ba6;
 }
 .secciones .container h2 {
 	text-align: center;
@@ -133,6 +132,7 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 3em;
 }
 
 .secciones .container .row .col-md-4 h3 {
@@ -146,21 +146,70 @@ body {
 	text-align: center;
 }
 
-.usuarios .container-fluid {
-	position: relative;
-	/*padding: 2em 0 2em 0;
-	/*background-color: #005ba6;*/
-}
-
-.usuarios .container-fluid h2 {
-	color: black;
+.usuarios {
+	background: -webkit-linear-gradient(#1530AE, #4962D7); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#1530AE, #4962D7); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#1530AE, #4962D7); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#1530AE, #4962D7); /* Standard syntax */
 	text-align: center;
+	padding: 3em 0 3em 0;
+}
+
+.usuarios .container-fluid {
+	display: block;
+	position: relative;
 	padding: 0 0 1em 0;
-
 }
 
-.usuarios .container-fluid .carousel-example-generic .carousel-inner img {
-	width: 100%;
-	height: 100%
+.usuarios .container-fluid .boton {
+	padding: 1.5em 0 0 0;
 }
+
+.usuarios .container-fluid .boton 
+
+.usuarios .container-fluid .header {
+	padding-bottom: 3em;
+	
+}
+
+.usuarios .container-fluid .proyecto {
+	background-image: url('http://dgnest-frontend.github.io/images/proyecto1.jpg');
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	margin: 1em 1em 0 1em;
+}
+
+.usuarios .container-fluid .proyecto .contenido {
+	position: absolute;
+}
+
+.usuarios .container-fluid .proyecto .contenido .titulo {
+	background-color: rgba(7,26,113,0.8);
+	width: 250px;
+	position: relative;
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.usuarios .container-fluid .proyecto .social {
+	opacity: 0;
+}
+
+.usuarios .container-fluid .proyecto:hover .social {
+	background-color: rgba(7,26,113,0.8);
+	top: 190px;
+	width: 250px;
+	opacity: 0.6;
+	text-align: left;
+	color: white;
+	position: relative;   
+}
+
+
+.usuarios .container-fluid .proyecto .contenido .titulo h3 {
+	font-size: 
+}
+
+
 
