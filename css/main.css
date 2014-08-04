@@ -1,3 +1,4 @@
+/* Todo sobre el LANDING */
 
 body {
 	/*padding-top: 65px;*/
@@ -70,51 +71,6 @@ body {
 	/*padding: 5em 0 30em 0;*/
 }
 
-.header-profile {
-	background-attachment: fixed;
-	background-image: url('http://dgnest-frontend.github.io/images/portada.jpg');
-	background-position: center center;
-	background-size: cover;
-	display: block;
-	padding: 5em 0 5em 0;
-}
-
-.header-profile .container h2 {
-	text-align: center;
-
-}
-.header-profile {
-	margin: 0 10em 0 10em;
-}
-
-.header-profile .container #foto-perfil img {
-	border-radius: 50%;
-	display: block;
-	height: 100px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.header-profile .container h2 {
-	text-align: center;
-}
-
-.perfil-area{
-	background-color: white;
-}
-
-.perfil-area .container .row .col-md-6 h3 {
-	color: black;
-}
-.perfil-area .container .row .col-md-6 .main img {
-	width: 300px;
-	height: 300px;
-}
-
-.perfil-area .container .row .col-md-6 .second img {
-	width: 150px;
-	height: 150px;
-}
 
 .secciones {
 	background: -webkit-linear-gradient(#0266c8, #FFFFFF); /* For Safari 5.1 to 6.0 */
@@ -222,19 +178,35 @@ body {
 	display: inline-block;
 }
 
-/*.usuarios .container-fluid .proyecto:hover .social {
-	background-color: black;
-	top: 190px;
-	width: 250px;
-	opacity: 0.6;
-	text-align: left;
-	position: relative;   
-}*/
-
-
 .usuarios .container-fluid .proyecto .contenido .titulo h3 {
 	font-size: 
 }
 
 
+/* AHORA SOBRE EL PERFIL DE USUARIO */
 
+.pro-header .container-fluid {
+	background-image: url('http://dgnest-frontend.github.io/images/portada.jpg');
+	background-attachment: fixed;
+	text-align: center;	
+	padding: 3em 0 3em 0;	
+}
+
+.pro-header .container-fluid .pro-user .pro-user-social {
+	padding: 10px 0 10px 0;
+}
+
+.pro-header .container-fluid .pro-user .pro-user-social li {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.pro-header .container-fluid .pro-user img {
+	height: 80px;
+	width: 85px;
+	border-radius: 50%;
+}
+
+.pro-header .container-fluid .pro-user.pro-user-name {
+	font-size: 20px;
+}
