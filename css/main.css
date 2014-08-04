@@ -210,3 +210,50 @@ body {
 .pro-header .container-fluid .pro-user.pro-user-name {
 	font-size: 20px;
 }
+
+/*CONTENEDOR DE PROYECTOS */
+.pro-proyectos .container-fluid .contenedor-titulo {
+	color: #3d3d3d;
+	padding: 10px 0 0 0;	
+}
+.pro-proyectos .container-fluid .componente {
+	color: black;		
+	border-radius: 20px;
+	height: auto;
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 2px 2px 2px 2px;
+}
+
+/*.pro-proyectos .container-fluid .componente-nuevo {
+	border: 1px dashed #708090;
+	height: 250px;
+	width: 250px;
+	display: inline-block;
+	margin: 5px 5px 5px 0;
+	border-radius: 10px;*/
+}
+
+.pro-proyectos .container-fluid .componente .contenedor-imagen {
+	
+}
+
+.pro-proyectos .container-fluid .componente .contenedor-imagen img {
+	height: auto;
+	width: 300px;
+	border-radius: 10px;
+	border: 1px solid #adadad;
+}
+
+.pro-proyectos .container-fluid .componente .contenedor-usuario {
+	padding: 1px 0 2px 10px;
+	border: 1px solid #adadad;
+	border-radius: 10px;
+	margin: 5px 0 5px 0;
+
+}
+
+.pro-proyectos .container-fluid .componente .contenedor-usuario .rating {
+	color: #898989;
+}
