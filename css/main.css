@@ -19,21 +19,25 @@ body {
 }
 
 .footer {
-	background-color: white;
+	background-color: #b2b2b2;
 	padding: 2em 0 2em 0;
-	text-align: center;
-	color: black;
-	display: block;
-	float: inherit;
 }
 
-.footer .social li {
+.footer .logo-footer {
+	padding: 0 0 0 2em;
+}
+
+.footer .row .col-md-4 li {
 	display: inline-block;
-
 }
 
-.footer .text {
+.footer .row .col-md-3 li {
+	list-style-type: none;
+}
+
+.footer .row .col-md-12 {
 	padding: 1em 0 0 0;
+	text-align: center;
 }
 
 .jumbotron {
