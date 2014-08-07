@@ -7,7 +7,7 @@ body {
 
 .comunidad {
 	background-attachment: fixed;
-	background-image: url('http://dgnest-frontend.github.io/images/mano-proyecto-3.jpg'); ;
+	background-image: url('http://dgnest-frontend.github.io/images/hand-bird.jpg'); ;
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .footer {
-	background-color: #b2b2b2;
+	background-color: #1B2628;
 	padding: 2em 0 2em 0;
 }
 
@@ -90,17 +90,17 @@ body {
 	padding: 0 0 2em 0;
 	position: relative;
 }
-.secciones .container .row .col-md-4 img{
+.secciones .container .row .col-md-6 img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 3em;
 }
 
-.secciones .container .row .col-md-4 h3 {
+.secciones .container .row .col-md-6 h3 {
 	text-align: center;
 }
-.secciones .container .row .col-md-4 p {
+.secciones .container .row .col-md-6 p {
 	text-align: justify;
 }
 
@@ -108,8 +108,7 @@ body {
 	text-align: center;
 }
 
-.usuarios {
-	
+.usuarios {	
 	background-color: #1B2628; 
 	text-align: center;
 	padding: 3em 0 3em 0;
