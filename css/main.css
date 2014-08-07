@@ -110,11 +110,7 @@ body {
 
 .usuarios {
 	
-	/*background: -webkit-linear-gradient(#0266c8, #03233d); /* For Safari 5.1 to 6.0 */
-  	/*background: -o-linear-gradient(#0266c8, #03233d); /* For Opera 11.1 to 12.0 */
-  	/*background: -moz-linear-gradient(#0266c8, #03233d); /* For Firefox 3.6 to 15 */
-  	/*background: linear-gradient(#0266c8, #03233d); /* Standard syntax */
-  	background-image: url('http://dgnest-frontend.github.io/images/codigo.jpg');
+	background-color: #1B2628; 
 	text-align: center;
 	padding: 3em 0 3em 0;
 }
